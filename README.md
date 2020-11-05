@@ -1,16 +1,30 @@
-# client-side
-Used technology:
-Java Spring Boot 2.2
-Spring Boot Security
-JWT authentication
-H2 database(In memory database)
+## Used Technology:
+```bash
+* Java Spring Boot 2.2
+* Spring Boot Security
+* JWT authentication
+* H2 database(In memory database)
+```
 
-Communication protocol: RESTful API.
+## Communication Protocol:
+```bash
+* RESTful API.
+```
+## How to run?
+```bash
+* Clone this git repository in local repository
+* Import this project file as maven project to a IDE like Eclipse or Intellij Idea.
+* Run this project as "Java Application"
+```
+```bash
+* Open Postman
+* Select request type as POST then add "http://localhost:8200/authenticate" to URL with username and password inside body as JSON object. A token will be returned.
+* Again select request type as GET and add "http://localhost:8200/api/v1/user/get/all" to URL and send token with prefix 'Bearer' as 'Authorization'. It will return all users list.
+```
 
-
-
-
-Future plan:
-Apply JWT in microservice project
-Role based authentication
-Integrate frontend Angular 8
+## Future Development:
+```bash
+* Apply JWT in microservice project
+* Role based authentication
+* Integrate frontend Angular 8
+```
