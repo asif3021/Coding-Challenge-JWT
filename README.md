@@ -10,6 +10,15 @@
 ```bash
 * RESTful API.
 ```
+
+## Username and Password for Authorization
+```bash
+{"username":"batworld","password": "admin123"},
+{"username":"batworld1","password": "admin124"},
+{"username":"batworld2","password": "admin125"},
+{"username":"batworld3","password": "admin126"}
+```
+
 ## How to run?
 ```bash
 * Clone this git repository in local repository
