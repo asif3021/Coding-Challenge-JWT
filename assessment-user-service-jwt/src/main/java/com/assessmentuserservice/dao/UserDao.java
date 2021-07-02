@@ -9,5 +9,5 @@ import com.assessmentuserservice.model.LoginInfo;
 public interface UserDao extends JpaRepository<LoginInfo, Integer> {
 	
 	LoginInfo findByUsername(String username);
-	
+
 }
